@@ -32,7 +32,7 @@ apenasFotos.forEach(arq => console.log(arq));
 
 // .includes(): Verifica se um texro contém outro
 const produtos =
-    ["Monitos Dell", "Mouse Razer", "Teclado Dell"];
+    ["Monitor Dell", "Mouse Razer", "Teclado Dell"];
 produtos
     .filter(p => p.includes("Dell"))
      .map(p => p.toUpperCase())
