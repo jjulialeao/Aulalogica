@@ -1,0 +1,4 @@
+const tags = ["#vida", "#javascript", "#aula", "#js", "#café"];
+tags 
+    .filter(t => t.includes("js"))
+    .forEach(tags => console.log(tags))
