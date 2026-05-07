@@ -11,7 +11,8 @@
                     Gatinhos em apuros - Criado por Julia
                 </div>
                 <!-- Tela central do jogo -->
-                <div class="card-body">
+                <div class="card-body" style="background-image: url('assets/fundo7.gif');
+                        background-size: cover; background-position: 50%;">
                     <div class="row">
                         <!-- Status do Herói -->
                         <div class="col">
@@ -35,11 +36,15 @@
                         <!-- Status do Chefe -->
                         <div class="col">
                             <ul class="list-group float-start text-center" style="width: 225px">
-                                <li class="list-group-item">Zorg Malvado 😾</li>
+                                <li class="list-group-item">Zorg Malvado 🐹</li>
                                 <li class="list-group-item">Chefão</li>
                                 <li class="list-group-item">
                                     💜
                                     <progress value="100" max="100" style="accent-color: rgb(55, 0, 255);"></progress>
+                                </li>
+                                <li class="list-group-item">
+                                    🧪
+                                    <progress value="100" max="100" style="accent-color: rgb(255, 0, 128);"></progress>
                                 </li>
                                 <li class="list-group-item">
                                     ⚡
@@ -49,13 +54,21 @@
                         </div> <!-- fim do row--> 
                         <div class="row">
                             <!--IMG HERO-->
-                            <div class="col"></div>
+                            <div class="col text-end">
+                                <img src="assets/hero.gif" width="250px"/>
+                            </div>
                             <!--IMG BOSS-->
-                            <div class="col"></div>
+                             <div class="col">
+                                <img src="assets/zorg.gif" width="250px">
+                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card-footer"></div>
+                <div class="card-footer text-center"> 
+                    <small class="text-muted">Ações do Herói</small>
+                    <p></p>
+                    <small class="text-muted">Ações do Boss</small>
+                </div>
             </div> <!-- fechamento do card>-->
         </div> <!-- fechamento do conteiner-->
     </body>
