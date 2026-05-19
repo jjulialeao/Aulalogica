@@ -17,34 +17,30 @@
                         <!-- Status do Herói -->
                         <div class="col">
                             <ul class="list-group float-end text-center" style="width: 225px">
-                                <li class="list-group-item">Brutos Corajoso 😼</li>
-                                <li class="list-group-item">Herói</li>
+                                <li class="list-group-item"><strong id="nome-hero"></strong></li>
+                                <li id="titulo-heroi" class="list-group-item"></li>
                                 <li class="list-group-item">
                                     ❤️
                                     <progress value="100" max="100" style="accent-color: rgb(255, 24, 24);"></progress>
                                 </li>
                                 <li class="list-group-item">
                                     🧪
-                                    <progress value="100" max="100" style="accent-color: rgb(74, 255, 74);"></progress>
+                                    <progress id="hp-hero" value="100" max="100" style="accent-color: rgb(74, 255, 74);"></progress>
                                 </li>
                                 <li class="list-group-item">
                                     ⚡
-                                    <progress value="40" max="100" style="accent-color: rgb(255, 194, 81);"></progress>
+                                    <progress id="en-hero" value="0" max="100" style="accent-color: rgb(255, 194, 81);"></progress>
                                 </li>
                             </ul>
                         </div>
                         <!-- Status do Chefe -->
                         <div class="col">
                             <ul class="list-group float-start text-center" style="width: 225px">
-                                <li class="list-group-item">Zorg Malvado 🐹</li>
-                                <li class="list-group-item">Chefão</li>
+                                <li class="list-group-item"><strong id="nome-boss"></strong></li>
+                                <li id="titulo-boss" class="list-group-item"></li>
                                 <li class="list-group-item">
                                     💜
                                     <progress value="100" max="100" style="accent-color: rgb(55, 0, 255);"></progress>
-                                </li>
-                                <li class="list-group-item">
-                                    🧪
-                                    <progress value="100" max="100" style="accent-color: rgb(255, 0, 128);"></progress>
                                 </li>
                                 <li class="list-group-item">
                                     ⚡
@@ -56,6 +52,7 @@
                             <!--IMG HERO-->
                             <div class="col text-end">
                                 <img src="assets/hero.gif" width="250px"/>
+                                <div id="controles"></div>
                             </div>
                             <!--IMG BOSS-->
                              <div class="col">
@@ -72,4 +69,5 @@
             </div> <!-- fechamento do card>-->
         </div> <!-- fechamento do conteiner-->
     </body>
+    <script src="javascript.js"></script>
 </html> 
