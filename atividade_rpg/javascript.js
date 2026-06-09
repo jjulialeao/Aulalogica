@@ -25,7 +25,7 @@ class Personagem {
     }
     boss_atacar(alvo) {
         if(this.energia >= 100) {
-            alvo.hp -= 25;
+            alvo.hp -= 15;
             this.energia = 0;
         } else {
             this.energia += 50;
